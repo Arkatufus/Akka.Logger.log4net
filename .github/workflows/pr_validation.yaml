@@ -53,4 +53,4 @@ jobs:
           fi
 
       - name: "dotnet pack"
-        run: dotnet pack -c Release
+        run: dotnet pack -c Release ./src/Akka.Logger.log4net.sln
